@@ -1,34 +1,35 @@
 *{
 	margin: 0px;
-    padding: 0px;
+  padding: 0px;
 }
-.fondo {
+
+body{
 	background: url(fondo.png) no-repeat scroll;
-    background-size: cover;
+  background-size: cover;
 	width: 100%;
-	height: 550px;    
+	height: 550px;
 	margin: 0px;
-    padding: 0px;
- 	background-color: blue;
+  padding: 0px;
+ 	background-color: white;
 }
 
 .seccion1 {
-	background: url(imagen_inicio) no-repeat;
-	background-size: 65%;
-	background-position: center; 
-	padding: 100px;
-	float: right;
-	width: 50%;
-	height: 500px;
-	background-color: transparent;
+	background: url(imagen_inicio.png) no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-position: right;
+	display: inline-block;
+	position: absolute;
 }
-
 
 .seccion2 {
 	padding: 70px;
 	width: 50%;
 	height: 500px;
 	background-color: transparent;
+	display: inline-block;
+	position: absolute;
 }
 
 .titulo_inicio {
@@ -36,7 +37,7 @@
 	background-size: contain;
 	padding: 15px;
 	width: 100%;
-	height: 70px;
+	height: 40%;
 	background-color: transparent;
 }
 
@@ -45,19 +46,48 @@
 	width: 100%;
 	height: 150px;
 	background-color: transparent;
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	display:inline;
 	}
 
+	.texto_inicio h1 {
+		font-size: 40px;
+		font-family: 'Roboto', sans-serif;
+		padding-bottom: 20px;
+		margin-top: 40px;
+	}
+
+.texto_inicio h2 {
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+
+.texto_inicio h4 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 20px;
+}
+
 .botones_inicio {
-	padding: 0px;
 	width: 100%;
-	height: 80px;
-	background-color: orange;
+	height: 100%;
 }
 
 .botongoogle{
-	background-image: url(gogleplay);
-	background-repeat:no-repeat;
-  	height:100px;
-  	width:100px;
-  	background-position:center;
+	background: url(googleplay.png) no-repeat;
+	background-size: contain;
+  width:48%;
+	height:100%;
+	display: inline-block;
+}
+
+.botonios{
+	background: url(appstore.png) no-repeat;
+	background-size: contain;
+  width:48%;
+	height:100%;
+	display:inline-block;
 }

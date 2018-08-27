@@ -1,3 +1,35 @@
 // Place all the styles related to the contactenos controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+form{
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+
+.bigbig{
+  height: 60px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+label{
+  font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.butu{
+  font-size: 30px;
+}
+
+button{
+  font-family: 'Roboto', sans-serif;
+  width:20%;
+  height: 80px;
+}
