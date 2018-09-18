@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idPerfil: MyString
+  persona: MyString
+  cuadrante: MyString
+  fundacion: MyString
+  T_usuario: one
+
+two:
+  idPerfil: MyString
+  persona: MyString
+  cuadrante: MyString
+  fundacion: MyString
+  T_usuario: two

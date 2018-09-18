@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  t_muro_caso: one
+  cuadrante: MyString
+  id_estado: MyString
+
+two:
+  t_muro_caso: two
+  cuadrante: MyString
+  id_estado: MyString

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  caso: MyString
+  descripcion: MyString
+  fecha_descripcion: MyString
+  T_usuario: one
+
+two:
+  caso: MyString
+  descripcion: MyString
+  fecha_descripcion: MyString
+  T_usuario: two

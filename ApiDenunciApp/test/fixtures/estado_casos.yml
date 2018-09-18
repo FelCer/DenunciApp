@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  T_estado_caso_cuadrante: one
+  estado: MyString
+
+two:
+  T_estado_caso_cuadrante: two
+  estado: MyString
